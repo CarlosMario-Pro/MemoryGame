@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
 }
 .container {
-    width: 700px;
+    /* width: 700px; */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -15,10 +15,10 @@ body{
 }
 .title {
     text-align: center;
-    width: 800px;
+    /* width: 800px; */
 }
 .juego {
-    width: 800px;
+    /* width: 800px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,7 +98,6 @@ footer a:hover {
 /*---------------(850px)---------------*/
 @media screen and (max-width: 850px) {
     body {
-        border: 1px solid red;
         width: 100%;
         margin: 0 auto;
     }
