@@ -94,7 +94,7 @@ function destapar (id){
                 winAudio.play();
                 clearInterval(tiempoRegresivoId);
                 mostrarAciertos.innerHTML = `Aciertos: ${aciertos} 😱`;
-                mostrarTiempo.innerHTML = `Fantástico! 🔥 Sólo demoraste ${timerInicial - timer} segundos`
+                mostrarTiempo.innerHTML = `<p class='text' >Fantástico! 🔥 demoraste ${timerInicial - timer} segundos</p>`
                 mostrarMovimientos.innerHTML = `Movimientos: ${movimientos} 🤟😎`;
             };
         }else{
